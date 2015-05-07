@@ -38,6 +38,7 @@ gem 'omniauth-facebook'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
+  gem 'dotenv'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
