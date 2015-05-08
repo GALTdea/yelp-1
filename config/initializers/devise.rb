@@ -32,8 +32,8 @@ Devise.setup do |config|
   # config.authentication_keys = [ :email ]
 
   config.omniauth :facebook,
-                  Rails.application.secrets.fb_APP_ID,
-                  Rails.application.secrets.fb_APP_SECRET,
+                  Rails.application.secrets.fb_app_id,
+                  Rails.application.secrets.fb_app_secret,
                   scope: 'public_profile',
                   display: 'popup'
 
